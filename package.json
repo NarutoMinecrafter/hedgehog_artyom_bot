@@ -1,0 +1,19 @@
+{
+  "name": "hedgehog_artyom",
+  "version": "1.0.0",
+  "main": "bot.ts",
+  "author": "Naruto Minecrafter",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node bot.ts",
+    "dev": "ts-node bot.ts --watch"
+  },
+  "dependencies": {
+    "telegraf": "^4.11.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.4"
+  }
+}

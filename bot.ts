@@ -17,7 +17,7 @@ bot.start((ctx) =>
 const sendHedgehog = (chatId: number) =>
   bot.telegram.sendPhoto(
     chatId,
-    `https://github.com/NarutoMinecrafter/hedgehog_artyom/blob/master/Ёжики/(${Math.ceil(
+    `https://raw.githubusercontent.com/NarutoMinecrafter/hedgehog_artyom/master/%D0%81%D0%B6%D0%B8%D0%BA%D0%B8/%20(${Math.ceil(
       Math.random() * 280
     )}).jpg`
   );
